@@ -1,0 +1,6 @@
+@use "../../../sass/abstract/variables" as v;
+
+.card {
+	border-radius: v.$card-border-radius;
+	box-shadow: v.$box-shadow;
+}

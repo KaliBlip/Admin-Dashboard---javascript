@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  line-height: 55px;
+
+  & a {
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  & a:hover {
+    text-decoration: none;
+    color: #dedede;
+  }
+}
+
+
+
+

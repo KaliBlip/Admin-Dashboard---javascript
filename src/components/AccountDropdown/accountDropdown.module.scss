@@ -1,0 +1,84 @@
+.accountExpansion {
+   position: absolute;
+
+   background-color: #fff;
+   color: #33475b;
+   border: 1px solid #cbd6e2;
+   border-radius: 3px;
+   top: 64px;
+   left: -250px;
+
+   width: 290px;
+
+   .userPreferences {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 15px;
+      border-bottom: 1px solid rgb(203, 214, 226);
+
+      .userAvatar {
+         width: 48px;
+         height: 48px;
+         left: 0px;
+         top: 5px;
+         margin: 0px;
+         border-radius: 50%;
+      }
+
+      .user-info {
+         padding-left: 20px;
+         margin-top: 8px;
+
+
+         .user-info-name {
+            display: block;
+            color: rgb(51, 71, 91);
+            font-weight: 600;
+            font-size: 16px;
+            white-space: pre-wrap;
+            overflow-wrap: break-word;
+         }
+
+         .user-info-email {
+            display: block;
+            color: rgb(124, 152, 182);
+            font-size: 12px;
+            line-height: 20px;
+            white-space: pre-wrap;
+            overflow-wrap: break-word;
+         }
+
+         .user-info-preferences {
+            color: #0091ae;
+         }
+      }
+   }
+
+   .navAccount {
+      position: relative;
+      display: block;
+
+      .navAccount-accountName {
+         display: block;
+         font-size: 14px;
+         font-weight: 600;
+         white-space: pre-wrap;
+         word-wrap: break-word;
+      }
+
+      .navAccount-portalId {
+         display: block;
+         font-size: .875rem;
+         font-weight: 400;
+      }
+   }
+
+   .navAccountMenu-bottom {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      font-size: 12px;
+   }
+ }

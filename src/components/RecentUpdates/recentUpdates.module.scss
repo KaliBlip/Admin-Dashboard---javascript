@@ -1,0 +1,21 @@
+@use "../../../sass/abstract/variables" as *;
+
+.recentUpdates {
+	margin-top: 1rem;
+
+	h2 {
+		margin-bottom: 0.8rem;
+	}
+
+	.updates {
+		background: $color-white;
+		padding: $card-padding;
+		border-radius: $card-border-radius;
+		box-shadow: $box-shadow;
+		transition: all 300ms ease;
+
+		&:hover {
+			box-shadow: none;
+		}
+	}
+}

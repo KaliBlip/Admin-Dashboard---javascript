@@ -1,0 +1,19 @@
+.formActions {
+   margin-top: 1.8rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.header  {
+   width: 100%;
+   border-bottom: 1px solid lightblue;
+   padding: 0.5rem;
+
+   h3 {
+      // color: rgb(43, 120, 156);
+      color: #5fa8d3;
+      font-size: 1.7rem;
+   }
+}
+

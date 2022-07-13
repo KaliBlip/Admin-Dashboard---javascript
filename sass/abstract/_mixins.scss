@@ -1,0 +1,28 @@
+@use "./variables" as *;
+
+@mixin profile-photo {
+	width: 2.8rem;
+	height: 2.8rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+@mixin text-muted {
+	color: $color-info-dark;
+}
+
+@mixin primary {
+	color: $color-primary;
+}
+
+@mixin danger {
+	color: $color-danger;
+}
+
+@mixin success {
+	color: $color-success;
+}
+
+@mixin warning {
+	color: $color-warning;
+}

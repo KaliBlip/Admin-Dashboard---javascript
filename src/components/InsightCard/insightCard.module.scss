@@ -1,0 +1,96 @@
+@use "../../../sass/abstract/variables" as *;
+
+.cardInsight {
+	background: $color-white;
+	padding: $card-padding;
+	margin-top: 1rem;
+	transition: all 300ms ease;
+
+	&:hover {
+		box-shadow: none;
+	}
+
+	span {
+		background: $color-primary;
+		padding: 0.5rem;
+		border-radius: 50%;
+		color: $color-white;
+		font-size: 2rem;
+	}
+
+	.expenses {
+		background: $color-danger;
+	}
+
+	.income {
+		background: $color-success;
+	}
+
+	.middle {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	h3 {
+		margin: 1rem 0 0.6rem;
+		font-size: 1rem;
+	}
+
+	.progress {
+		position: relative;
+		width: 92px;
+		height: 92px;
+		border-radius: 50%;
+
+		svg {
+			width: 7rem;
+			height: 7rem;
+		}
+
+		circle {
+			fill: none;
+			stroke: $color-primary;
+			stroke-width: 14;
+			stroke-linecap: round;
+			transform: translate(5px, 5px);
+		}
+
+		//static, this values will update dynamically according to the data
+		.circleSales {
+			stroke-dashoffset: -30;
+			stroke-dasharray: 200;
+		}
+
+		.circleExpenses {
+			stroke-dashoffset: 20;
+			stroke-dasharray: 80;
+		}
+
+		.circleIncome {
+			stroke-dashoffset: 35;
+			stroke-dasharray: 110;
+		}
+		//Fin static
+
+		.number {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	small {
+		margin-top: 1.3rem;
+		display: block;
+	}
+
+	.text-muted {
+		color: $color-info-dark;
+	}
+}

@@ -1,0 +1,16 @@
+@use "../../../sass/abstract/mixins" as m;
+
+.update {
+	display: grid;
+	grid-template-columns: 2.6rem auto;
+	gap: 1rem;
+	margin-bottom: 1rem;
+
+	.profile-photo {
+		@include m.profile-photo;
+	}
+
+	.text-muted {
+		@include m.text-muted;
+	}
+}

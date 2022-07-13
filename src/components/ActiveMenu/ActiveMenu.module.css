@@ -1,0 +1,17 @@
+.activeMenu {
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 3px #dedede;
+}
+
+.activeMenuActions {
+  display: flex;
+  gap: 1rem;
+}

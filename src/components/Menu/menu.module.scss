@@ -1,0 +1,71 @@
+.contenedor-principal-flex {
+	display: flex;
+	flex-direction: column;
+	background-color:#f5f8fa;
+
+	width: 20%;
+	height: 100vh;
+	padding-left: 1rem;
+}
+
+.titulo-barra-menu {
+	color: #fff;
+	text-align: center;
+	margin-top: 0.3em;
+	font-family: "Pontano Sans", sans-serif;
+}
+
+.logoContainer {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.logoContainer .doctorImage {
+	width: 45%;
+	border-radius: 50%;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+.option {
+	margin-bottom: 0.3rem;
+	padding: 0.5rem 0rem 0.5rem 2rem;
+	color: #5e5e5e;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all ease 0.3s;
+	border-radius: 0px 15px 15px 0px;
+}
+
+.navigation .option:hover,
+.navigation .option:active,
+.navigation .option.active {
+	color: #008b95;
+	/* text-shadow: 0px 0px 5px #095459; */
+	background: rgba(126, 181, 233, 0.6);
+}
+
+.scrollable {
+	// margin-top: 1rem;
+	position: relative;
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.navigation {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+
+	.navigationTitle {
+		font-weight: 800;
+		font-size: 14px;
+		margin: 1rem 0;
+		color: #33475b;
+	}
+}

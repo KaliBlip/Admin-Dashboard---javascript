@@ -1,0 +1,18 @@
+.contacts {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsList {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  padding: 2rem;
+  overflow-x: auto;
+}
+

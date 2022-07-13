@@ -1,0 +1,43 @@
+@use '../../../sass/abstract/variables' as *;
+@use "../../../sass/abstract/mixins" as m;
+
+.cardLeads {
+	width: 90%;
+	margin: auto;
+}
+
+table {
+	background: $color-white;
+	width: 100%;
+	margin: auto;
+	border-radius: $card-border-radius;
+	padding: $card-padding;
+	text-align: center;
+	box-shadow: $box-shadow;
+	transition: all 300ms ease;
+
+	&:hover {
+		box-shadow: none;
+	}
+
+	tbody td {
+		height: 2.8rem;
+		border-bottom: 1px solid $color-light;
+		color: $color-dark-variant;
+	}
+
+	tr:last-child td {
+		border-bottom: none;
+	}
+
+	th {
+		cursor: pointer;
+	}
+
+	tfoot td {
+		font-weight: bold;
+	}
+
+}
+
+
